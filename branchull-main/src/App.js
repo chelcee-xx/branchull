@@ -15,7 +15,7 @@ function App() {
         </div>
         <div className="flex">
           <p className="my-auto me-2">Log in</p>
-          <button className="btn btn-primary">Get started</button>
+          <Link to="/linkShortner"> <button className="btn btn-primary">Get started</button></Link>
         </div>
       </nav>
 
